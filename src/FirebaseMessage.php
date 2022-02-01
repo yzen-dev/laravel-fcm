@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFirebase;
+namespace LaravelFCM;
 
 use Illuminate\Support\Collection;
 use Kreait\Firebase\Messaging\ApnsConfig;

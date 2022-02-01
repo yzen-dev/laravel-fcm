@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFirebase;
+namespace LaravelFCM;
 
 use InvalidArgumentException;
 

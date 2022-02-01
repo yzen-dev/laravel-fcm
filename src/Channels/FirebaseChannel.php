@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelFirebase\Channels;
+namespace LaravelFCM\Channels;
 
 use Illuminate\Support\Facades\Log;
-use LaravelFirebase\FirebaseMessage;
+use LaravelFCM\FirebaseMessage;
 use Illuminate\Notifications\Notification;
 use Kreait\Firebase\Messaging\CloudMessage;
 

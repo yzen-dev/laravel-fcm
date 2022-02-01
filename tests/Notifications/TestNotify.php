@@ -1,9 +1,8 @@
 <?php
 
-use App\Notifications\Events\Firebase\ChangeBidStatusFirebaseNotification;
-use LaravelFirebase\FirebaseMessage;
+use LaravelFCM\FirebaseMessage;
 use Illuminate\Notifications\Notification;
-use LaravelFirebase\FirebaseNotification;
+use LaravelFCM\FirebaseNotification;
 
 class TestNotify extends Notification
 {

@@ -1,11 +1,10 @@
 <?php
 
-namespace LaravelFirebase;
+namespace LaravelFCM;
 
-use GuzzleHttp\Client as HttpClient;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Notifications\ChannelManager;
-use LaravelFirebase\Channels\FirebaseChannel;
+use LaravelFCM\Channels\FirebaseChannel;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
